@@ -80,6 +80,11 @@ nextbtn.addEventListener("click", () => {
 
 function question2() {
   console.log("q2_get")
+  if (window.location.pathname === '/page1.html') {
+    console.log("User is on page1.html");
+} else {
+    console.log("User is on some other page");
+}
   window.location.href = 'page1.html';
   let q2 = document.getElementById("question2");
   
