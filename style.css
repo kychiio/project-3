@@ -1,0 +1,86 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+*{
+    box-sizing: border-box
+}
+body{
+    background-color: palevioletred; 
+    background-image: linear-gradient(315deg, palevioletred 0%, rgb(182, 74, 80) 100%);
+    font-family: "Economica", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.main-container{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px purple;
+    width: 600px;
+    /* height: 500px; */
+    overflow: hidden;
+}
+
+.question-header{
+    padding: 3rem;
+}
+
+.advice-box{
+    display: none;
+    background-color: rgb(246, 180, 37);
+    border-radius: 20px;
+    padding: 3rem;
+    text-align: left;
+    margin: 40px;
+    
+}
+
+
+.h1{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: rgb(136, 180, 26); 
+    color: white;
+    border: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+    cursor: pointer;
+    height: 100px;
+    font-size: 1.1rem;
+    font-family: none;
+    padding: 3rem;
+}
+
+button:hover{
+    background-color: rgb(88, 142, 13);
+}
+
+button:focus{
+    outline: none;
+    background-color: rgb(36, 158, 185);
+}
