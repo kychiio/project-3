@@ -16,9 +16,8 @@
 
 
 window.onload = function() {
-  if (window.location.pathname === '/index.html') {
-      console.log("User is on index.html");
-  } else if (window.location.pathname === '/page1.html') {
+ 
+ if (window.location.pathname === '/page1.html') {
       console.log("User is on page1.html");
   } else {
       console.log("User is on some other page");
@@ -30,7 +29,7 @@ window.onload = function() {
 
 window.onload = function() {
 console.log("true")
-question1();
+
 }
 
 function question1() {
